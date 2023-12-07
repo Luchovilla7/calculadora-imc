@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
     outline: none;
     border: none;
+    font-family: 'Dhurjati', sans-serif;
 }
 
 body {
@@ -20,7 +22,7 @@ body {
 
 h1 {
     font-size: 38px;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     color: #ffffff;
     font-weight: 900;
 }
@@ -35,7 +37,7 @@ h1 {
     flex-direction: column;
     margin: 20px 10px;
     color: #ffffff;
-    font-weight: bold;
+    font-size: 18px;
 }
 
 input {
@@ -48,9 +50,9 @@ input {
 
 button {
     margin-top: 15px;
-    padding: 10px;
+    padding: 7px;
     font-size: 25px;
-    background-color: black;
+    background-color: #090974;
     border-radius: 10px;
     color: white;
     cursor: pointer;
@@ -78,7 +80,7 @@ button:active {
 }
 
 .logo {
-    margin: 25px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -88,6 +90,5 @@ button:active {
 
 .copy {
     color: #ffffff;
-    font-family: monospace;
-    font-weight: bold;
+    font-size: 18px;
 }
